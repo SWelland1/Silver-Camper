@@ -95,11 +95,11 @@ footer {
 }
 
 .socials {
-    text-align: center;
+    text-align: right;
 }
 
 .socials li {
-   display: inline; 
+   display: inline;
 }
 
 .socials i {
