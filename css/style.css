@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
 
-* {
-    margin:0;
-    padding:0;
-    border:0;
-}
-
-/*Navigation Bar*/
+/* NAVIGATION BAR */
 
 .active {
     text-decoration: underline;
@@ -21,8 +15,9 @@
     z-index: 1030;
 }
 
+
 .bg-dark {
-    background-color: #212224;
+    background-color: #212224 !important;
     
 }
 
@@ -39,7 +34,7 @@
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: 1rem 2rem;
+    padding: .5rem 1rem;
     
 }
 
@@ -89,3 +84,26 @@
     justify-content: flex-end;
 }
 
+
+
+
+/*Footer & Social*/
+
+footer {
+    height: 150px;
+}
+
+.socials {
+    text-align: center;
+}
+
+.socials li {
+   display: inline; 
+}
+
+.socials i {
+    font-size: 150%;
+    margin: 1%;
+    padding: 5%;
+    color: #212224;
+}
