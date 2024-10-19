@@ -88,9 +88,10 @@
 
 
 /*Footer & Social*/
-
+    
 footer {
     height: 150px;
+    background-color: #212224;
 }
 
 .socials {
@@ -105,5 +106,5 @@ footer {
     font-size: 150%;
     margin: 1%;
     padding: 5%;
-    color: #212224;
+    color: #d0d3d8f6;
 }
