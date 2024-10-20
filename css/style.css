@@ -86,11 +86,30 @@
 
 /*Hero Image*/
 
+#hero-outer {
+    height: 37.5rem;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
 #hero-image {
     height: 37.5rem;
     width: 100%;
-    background: url("../images/heroimage.jpg");
+    background: url("../images/hero-image.jpg");
 }
+
+#welcome-text h1 {
+    letter-spacing: 0.25rem;
+    padding: 2.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    }
 
 
 
