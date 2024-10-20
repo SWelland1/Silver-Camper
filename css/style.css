@@ -117,11 +117,10 @@
     
 footer {
     height: 150px;
-    background-color: #212224;
-}
+    }
 
 .socials {
-    text-align: right;
+    text-align: center;
 }
 
 .socials li {
@@ -132,5 +131,5 @@ footer {
     font-size: 150%;
     margin: 1%;
     padding: 5%;
-    color: #d0d3d8f6;
+    color: #212224;
 }
