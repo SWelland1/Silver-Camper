@@ -20,12 +20,15 @@ body {
 
 /*Header*/
 header {
-    background-color: #3a3a3a;
+    background-color: #fafafa;
     padding: 0 1 rem;
     position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -37,7 +40,7 @@ h1 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #afb2b6;
+    color: #252525;
 }
 
 #menu {
@@ -55,6 +58,28 @@ menu > li {
 }
 
 /*Nav Bar*/
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
 
 
 /*Hero Image*/
@@ -174,3 +199,40 @@ footer {
     color: #212224;
 }
 
+/*Media: Tablets & Larger*/
+@media screen and (min-width: 768px) 
+
+    /*Header*/
+
+nav {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width:fit-content;
+    padding-right: 1rem;
+}
+
+#menu {
+    display:flex;
+}
+
+#menu > li {
+    padding-left: 1rem;
+}
+
+.nav-toggle-label {
+    display: none;
+}
+
+#logo {
+    font-size: 280%;
+    line-height: 75px;
+    margin0 0.5rem;
+}
+
+/*Large Devices*/
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
+    }
+}
