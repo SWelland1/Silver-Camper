@@ -15,12 +15,12 @@ body {
     flex-direction: column;
     /*Gen Project Style*/
     color: #3a3a3a;
-    font-family: 'Lato' sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 /*Header*/
 header {
-    background-color: #fafafa;
+    background-color: #ffffff;
     padding: 0 1 rem;
     position: fixed;
     z-index: 99;
@@ -180,24 +180,20 @@ body, html {
 
 /*Footer*/
 
-footer {
-    height: 150px;
-}
-
-.socials {
+#socials {
     text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
 
-.socials li {
-   display: inline; 
-}
-
-.socials i {
-    font-size: 150%;
-    margin: 1%;
+#socials i {
+    font-size: 160px;
     padding: 5%;
-    color: #212224;
+    color: #3a3a3a;
 }
+
 
 /*Media: Tablets & Larger*/
 @media screen and (min-width: 768px) 
@@ -208,7 +204,7 @@ nav {
     display: block;
     position: relative;
     box-shadow: none;
-    width:fit-content;
+    width: fit-content;
     padding-right: 1rem;
 }
 
