@@ -20,7 +20,7 @@ body {
 
 /*Header*/
 header {
-    background-color: #ffffff;
+    background-color: #000;
     padding: 0 1 rem;
     position: fixed;
     z-index: 99;
@@ -40,7 +40,7 @@ h1 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #252525;
+    color: #fcf9f9e9;
 }
 
 #menu {
@@ -54,14 +54,14 @@ menu > li {
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #fcf9f9e9;
 }
 
 /* Navbar */
 
 .active {
     text-decoration: underline;
-    color: #fff;
+    color: #000;
 }
 
 .fixed-top {
@@ -74,7 +74,7 @@ menu > li {
 
 
 .bg-dark {
-    background-color: #212224 !important;
+    background-color: #000;
     
 }
 
@@ -92,16 +92,17 @@ menu > li {
     -ms-flex-pack: justify;
     justify-content: space-between;
     padding: .5rem 1rem;
+    background-color: #000;
     
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #fafafa;
+    color: #fff;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
     background-color: #fff;
-    color: #212224;
+    color: #000;
 }
 
 .navbar-toggler:not(:disabled):not(.disabled) {
@@ -145,16 +146,17 @@ menu > li {
 /*Hero Image*/
 
 #hero-outer {
-    height: 37.5rem;
+    height: 450px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
 #hero-image {
-    height: 37.5rem;
+    height: 450px;
     width: 100%;
     background: url("/css/images/hero-image.jpg");
+    background-size: cover;
 }
 
 #welcome-text h1 {
@@ -165,7 +167,7 @@ menu > li {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: whitesmoke;
+    color: #000;
     text-transform: uppercase
 }
 
@@ -188,6 +190,7 @@ button, input {
 
 #info {
     text-align: center;
+    background-color: #000;
     
 }
 
@@ -202,13 +205,40 @@ button, input {
     padding-top: 70px;
 }
 
+p
+ {
+    color: #fff;
+    
+}
+
+h2 {
+    color:#fff
+}
+
+.left-section {
+    width: 50%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-section {
+    width: 0%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+
 .btn:not(:disabled):not(.disabled) {
     cursor: pointer;
 }
 .btn-secondary {
-    color: #fff;
-    background-color: #212224;
-    border-color: #212224;
+    color: #000;
+    background-color: #fcf9f9e9;
+    border-color: #fcf9f9e9;
 }
 .btn {
     display: inline-block;
@@ -229,25 +259,86 @@ button, input {
 
 
 /*Gallery*/
-
 .col-12 {
     padding: 0px;
 }
 
-#photos-gallery {
+#gallery-title {
+    text-align: center;
+    background-color: #000;
+    font-size: 200%;
+    margin: 0 auto;
+    padding: 30px 0px 30px;
+    width: 100%;
+}
+
+#photos {
     clear: both;
     line-height: 0;
     column-count: 4;
     column-gap: 0px;
-    background-color:#fefae0;
+    background-color: #000;
 }
 
-#photos-gallery img {
-    width: 10%;
+#photos img {
+    width: 100%;
 }
 
           
 /*Contact*/
+
+.contact-image-outer {
+    width: 100%;
+    height: 450px;
+}
+
+#hero-image-contact {
+    height: 450px;
+    background: url("/css/images/person&dog-image6.jpg") no-repeat center center;
+    width: 100%;
+    background-size: cover;
+}
+
+.form-container {
+    height: 700px;
+    width: 100%;
+    background-color: #000;
+    margin-bottom: 100px;
+}
+
+#form-title {
+    text-align: center;
+    font-size: 200%;
+    margin: 5px;
+    padding: 30px 0px 30px;
+}
+
+.row {
+    margin-right: 0px;
+}
+
+.contact-form {
+    background-color: #fff;
+    color:#E9EDC9;
+    border-radius: 20px;
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.submit-button {
+    font-size: 25px;
+    background-color: #f50b0b;
+    color:#000;
+    border-radius: 10px;
+    font-weight: 300;
+}
+
+.submit-button:hover {
+    background-color: #f50b0b;
+    color: #fefae0;
+    font-size: 25px;
+}
 
 
 
@@ -255,10 +346,12 @@ button, input {
 
 #footer {
     height: 150px;
+    
 }
 
 .socials {
     text-align: center;
+    background-color: #000;
 }
 
 .socials li {
@@ -269,7 +362,7 @@ button, input {
     font-size: 150%;
     margin: 1%;
     padding: 5%;
-    color: #212224;
+    color: #f50b0b;
 }
 
 /*Media: Tablets & Larger*/

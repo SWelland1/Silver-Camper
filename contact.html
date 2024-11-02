@@ -56,40 +56,52 @@
         </nav>
       </header>
       
-<!--Contact-->  
+<!--Hero image-->
+<section>
+  <div class="contact-image-outer">
+      <div id="hero-image-contact" title="dog at person in tent">
+      </div>
+  </div>
 
-    <section id="contact">
-    <div class="container">
-    <div class="well well-sm">
-        <h2>Get In Touch!</h2>
-        <p>How To Contact Us</p>
-    </div>
+  <!--Text before form-->
 
-    <div class="col-md-5">
-        <form method="get" action="submit.html">
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="Name" required>
-            </div>
-            <br>
-            <div class="form-group"></div>
-                <input type="text" class="form-control" placeholder="Email" required>
-            </div>
-            <br>
-            <div class="form-group"></div>
-                <input type="text" class="form-control" placeholder="Phone" required>
-            </div>
-            <br>
-            <div class="form-group"></div>
-                <textarea class="form-control" rows="4" placeholder="Message" required></textarea>
-        </div>
-            <button class="btn btn-default" type="submit" name="button">
-                <i class="bi bi-bullseye"></i> aria-hidden="true">Submit</i>Submit
-            </button>
-        </form>
-    </div>
-</div>
-</div>
+  <div class="form-container">
+      <div class="row">
+          <div class="col-12">
+              <p id="form-title">
+                  Fill out the form below and let us know your questions
+              </p>
+          </div>
+      </div>
+      <!--Contact form-->
+      <div class="row contact-form">    
+          <div class="col-12">
+              <form method="GET" action="submit.html">
+                  <div class="mb-2">
+                      <label for="first-name">First Name</label>
+                      <input type="text" class="form-control" name="first-name" id="first-name" placeholder="Your first name" required>
+                  </div>
+                  <div class="mb-2">
+                      <label for="last-name">Last Name</label>
+                      <input type="text" class="form-control" name="last-name" id="last-name" placeholder="Your last name" required>
+                  </div>
+                  <div class="mb-2">
+                      <label for="email">Email Address</label>
+                      <input type="email" class="form-control" name="email" id="email" placeholder="Your email address" required>
+                  </div>
+                  <div class="mb-4">
+                      <label for="message">Your enquiry</label>
+                      <textarea name="message" class="form-control" id="message" placeholder="Let us know what you are looking for" required></textarea>
+                  </div>
+                  <div class="mb-4">
+                      <input type="submit" class="submit-button" value="Send">
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div>    
 </section>
+</main>
 
 <!--Footer & Social-->
 <footer>
