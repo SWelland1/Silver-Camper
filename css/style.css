@@ -335,7 +335,6 @@ h2 {
 }
 
 
-
 /*Footer*/
 
 #footer {
@@ -359,6 +358,28 @@ h2 {
     margin: 1%;
     padding: 5%;
     color: #f50b0b;
+}
+
+/*Submit Form*/
+
+.submit-page {
+    background-color: #000;
+    text-align: center;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    color: #fff;
+}
+
+.submit-page h1 {
+    color: #fff;
+    background-color: 000;
+    padding-bottom: 30px;
+}
+
+.submit p {
+    color: #fff;
+    background-color: #000;
+
 }
 
 
