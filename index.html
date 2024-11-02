@@ -24,7 +24,7 @@
     
       <!--CSS Link-->
     
-      <link href="../Silver-Camper/css/style.css" rel="stylesheet" type="text/css">
+      <link href="css/style.css" rel="stylesheet" type="text/css">
     
     
     </head>
@@ -34,28 +34,58 @@
       <!--Header and Navbar-->
     
       <header>
-        <a ref="index.html">
-          <h1 id="logo">Silver Camper</h1>
-        </a>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"></label>  
-        <nav>
-            <ul id="menu">
-              <li><a href="" class="active">Home</a></li>
-              <li><a href="">Gallery</a></li>
-              <li><a href="">Contact</a></li>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+          <a class="navbar-brand" href="index.html">SILVER CAMPER <i class="fa-solid fa-kiwi-bird"></i></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home<span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
             </ul>
-          </nav>
+          </div>
+        </nav>
       </header>
 
         <!--Hero Image-->
         <main>
-          <section id="hero-image"></section>
+          <section id="hero-outer">
+            <div id="hero-image"></div>
+      
+            <div id="welcome-text">
+              <h1>ADVENTURE AWAITS</h1>
+            </div>
+          </section>
+
+          <section id="info">
+            <div class="row">
+              <div class="col-md-4">
+                <h2>Gallery</h2>
+                <p>See some of our best campsites local to you.</p>
+                <p><a class="btn btn-secondary" href="gallery.html" role="button">Campsites</a></p>
+              </div>
+              <div class="col-md-4">
+                <h2>Contact Us</h2>
+                <p>For more information or to find local campsites.</p>
+                <p><a class="btn btn-secondary" href="contact.html" role="button">View</a></p>
+              </div>
+            </div>
+      
+          </section>
+      
         </main>
-                  
-            <h1>RIGHT ON YOUR DOORSTEP</h1>
-          </div>
-        </div>
+      
+
+          </section>
 
 
 <!--Footer & Social-->
