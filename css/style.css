@@ -21,7 +21,7 @@ body {
 /*Header*/
 header {
     background-color: #000;
-    padding: 0 1 rem;
+    padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -373,7 +373,7 @@ h2 {
 
 .submit-page h1 {
     color: #fff;
-    background-color: 000;
+    background-color: #000;
     padding-bottom: 30px;
 }
 
@@ -394,7 +394,7 @@ nav {
     position: relative;
     box-shadow: none;
     width: fit-content;
-    padding-right: 1rem;
+   
 }
 
 #menu {
@@ -418,5 +418,5 @@ nav {
 /*Large Devices*/
 @media screen and (min-width: 992px) 
     #menu a:hover {
-        border-bottom: 1px solid #3a3a3a;
+    
 }
