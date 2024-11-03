@@ -1,61 +1,75 @@
-#   Testing
+# Silver Camper Testing Page
 Chrome Developer Tools and issues can be found below
 
-#   W3C Vaildator
-Used to validate HTML on all pages and CSS in the style.css file.
+## W3C Vaildator
+Used to validate HTML on all pages.
 
 Link of Pages Below
-Index Page HTML (LINNK)
-Gallery Page (LINK)
-Contact Us Page (LINK)
-Submit Page(LINK)
-Style.css CSS
+1. [Index Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fswelland1.github.io%2FSilver-Camper%2Findex.html)
+2. [Gallery Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fswelland1.github.io%2FSilver-Camper%2Fgallery.html)
+3. [Contact Us Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fswelland1.github.io%2FSilver-Camper%2Fcontact.html)
+4. [Submit Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fswelland1.github.io%2FSilver-Camper%2Fsubmit.html%3Ffirst-name%3Dsfds%26last-name%3Dxdfsd%26email%3Dsarahwelland%2540hotmail.com%26message%3Dsdfsdf)
 
-#  Solved Bugs
-ANY SOLVED BUGS BELOW
 
-#  Testing User Stories
+## Solved Bugs
+
+Diagnostic Lighthouse brought up a number of fixes that were needed on the Gallery Page
+
+![lighthouse diagnostic fixes](/css/images/ReadMe%20and%20Testing/lighthouse%20fixes.png)
+
+## Testing User Stories
 
 # First Time Users
+
 * Navigate the site easily
 
-(IMAGE OF NAVIGATION BAR)
+![Navigation Bar](/css/images/ReadMe%20and%20Testing/navigation%20bar.png)
 
 * Find Social Media Links
 
-(COPY OF FOOTER BAR)
+![Footer Bar](/css/images/ReadMe%20and%20Testing/Screenshot%202024-11-03%20150830.png)
 
 # Returning Visitors
 * Contact Silver Camper
+![Form Page](/css/images/ReadMe%20and%20Testing/Form.png)
 
-(COPY OF FORM PAGE)
+## Lighthouse
+[Index Page Link](https://8000-swelland1-silvercamper-u9gjslnsl7s.ws.codeinstitute-ide.net/index.html)
 
-#  Lighthouse
-Index Page (LINK FOR TESTING)
+![IMAGE OF PERCENTAGE](/css/images/ReadMe%20and%20Testing/new%20index%20lighthouse.png)
 
-(IMAGE OF PERCENTAGES)
+[Gallery Page Link](https://8000-swelland1-silvercamper-u9gjslnsl7s.ws.codeinstitute-ide.net/gallery.html)
 
-Gallery Page (LINK FOR TESTING)
+![IMAGES OF PERCENTAGE](/css/images/ReadMe%20and%20Testing/lighthouse%20gallerypage.png)
 
-(IMAGES OF PERCENTAGES)
+[Contact Us Page Link](https://swelland1.github.io/Silver-Camper/contact.html)
 
-Contact Us Page (LINK FOR TRSTING)
+![IMAGES OF PERCENTAGES](/css/images/ReadMe%20and%20Testing/contact%20us%20lighthouse%20page.png)
 
-(IMAGES OF PERCENTAGES)
-
-#   Full Testing
+##  Full Testing
 Testing was performed on Chrome and Safari broswers. Each page has also been through Google Chrome Developer Tools to make sure they are responsive.
 
-# Links
+## Device Testing
+
+Pages were tested on Samsung 8 Phone and Iphone SE to see if they respond to different devices.
+
+![Images of Samsung 8](/css/images/ReadMe%20and%20Testing/samsungs8%20test.png)
+
+![Image of Iphone SE](/css/images/ReadMe%20and%20Testing/iphonese%20test.png)
+
+## Links
 All Links have been tested on the Index Page. Each link works and Social Media links open in a seperate browser.
 All Links have been tested on the Gallery Page. Each link works and Social Media links open in a seperate browser.
 All Links have been tested on the Contact Us Page. Each link works and Social Media links open in a seperate browser.
 All Links have been tested on the Submit Page. Each link works and Social Media links open in a seperate browser.
 
-#   Credit
+# Credit
 Content written by myself for Silver Camper.
-Media .........................
-W3 Schools for code
-Other projects Kiwi Kampers & Gower Fields
+Images from Upsplash (LINK)
+W3 Schools (LINK) for help with Code issues.
+Other projects for layout and design inspiration Kiwi Kampers (LINK) & Gower Fields (LINK)
+Google Developer Tools for styling and responsiveness.
+Over Stack for help with Git navigation.
+
 
  

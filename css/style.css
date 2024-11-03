@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     /*Gen Project Style*/
-    color: #3a3a3a;
+    color: #000;
     font-family: 'Lato', sans-serif;
 }
 
@@ -25,7 +25,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #d3d1e3cd;
+    box-shadow: 0 2px 2px #fff;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -40,7 +40,7 @@ h1 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #fcf9f9e9;
+    color: #fff;
 }
 
 #menu {
@@ -54,7 +54,7 @@ menu > li {
 }
 
 .active {
-    border-bottom: 1px solid #fcf9f9e9;
+    border-bottom: 1px solid #fff;
 }
 
 /* Navbar */
@@ -231,8 +231,8 @@ h2 {
 }
 .btn-secondary {
     color: #000;
-    background-color: #fcf9f9e9;
-    border-color: #fcf9f9e9;
+    background-color: #fff;
+    border-color: #fff;
 }
 .btn {
     display: inline-block;
@@ -287,11 +287,11 @@ h2 {
     height: 450px;
 }
 
-#hero-image-contact {
-    height: 450px;
-    background: url("/images/person&dog-image6.jpg") no-repeat center center;
-    width: 100%;
-    background-size: cover;
+    #hero-image-contact {
+        height: 450px;
+        width: 100%;
+        background: url("/css/images/person&dog-image6.jpg") no-repeat center center;
+        background-size: cover;
 }
 
 .form-container {
@@ -314,7 +314,7 @@ h2 {
 
 .contact-form {
     background-color: #000;
-    color:#E9EDC9;
+    color:#fff;
     border-radius: 20px;
     width: 75%;
     margin: 0 auto;
@@ -331,7 +331,7 @@ h2 {
 
 .submit-button:hover {
     background-color: #f50b0b;
-    color: #fefae0;
+    color: #fff;
     font-size: 35px;
 }
 
