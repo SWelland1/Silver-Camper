@@ -1,4 +1,6 @@
-# Silver Camper Testing Page
+# Testing
+
+## Silver Camper Testing Page
 Chrome Developer Tools and issues can be found below
 
 ## W3C Vaildator
@@ -13,13 +15,13 @@ Link of Pages Below
 
 ## Solved Bugs
 
-Diagnostic Lighthouse brought up a number of fixes that were needed on the Gallery Page
+Diagnostic Lighthouse brought up a number of fixes that were needed on the Gallery Page. Some of these I was able to fix other I could not as I do not have the experience or knowledge to fix them.
 
 ![lighthouse diagnostic fixes](/css/images/ReadMe%20and%20Testing/lighthouse%20fixes.png)
 
-## Testing User Stories
+# Testing User Stories
 
-# First Time Users
+## First Time Users
 
 * Navigate the site easily
 
@@ -29,7 +31,7 @@ Diagnostic Lighthouse brought up a number of fixes that were needed on the Galle
 
 ![Footer Bar](/css/images/ReadMe%20and%20Testing/Screenshot%202024-11-03%20150830.png)
 
-# Returning Visitors
+## Returning Visitors
 * Contact Silver Camper
 ![Form Page](/css/images/ReadMe%20and%20Testing/Form.png)
 
@@ -46,7 +48,7 @@ Diagnostic Lighthouse brought up a number of fixes that were needed on the Galle
 
 ![IMAGES OF PERCENTAGES](/css/images/ReadMe%20and%20Testing/contact%20us%20lighthouse%20page.png)
 
-##  Full Testing
+# Full Testing
 Testing was performed on Chrome and Safari broswers. Each page has also been through Google Chrome Developer Tools to make sure they are responsive.
 
 ## Device Testing
@@ -64,12 +66,30 @@ All Links have been tested on the Contact Us Page. Each link works and Social Me
 All Links have been tested on the Submit Page. Each link works and Social Media links open in a seperate browser.
 
 # Credit
-Content written by myself for Silver Camper.
-Images from Upsplash (LINK)
-W3 Schools (LINK) for help with Code issues.
-Other projects for layout and design inspiration Kiwi Kampers (LINK) & Gower Fields (LINK)
-Google Developer Tools for styling and responsiveness.
-Over Stack for help with Git navigation.
+* Content written by myself for Silver Camper.
+* Images from Upsplash (LINK)
+1. Hero Image Homepage - [Scott Goodwill](https://unsplash.com/photos/orange-camping-tent-near-green-trees-y8Ngwq34_Ak)
+2. Image 1 Gallery - [Ole-Martin Bratteberg](https://unsplash.com/photos/blue-tent-beside-body-of-water-surrounded-by-mountains-during-daytime-hv7F8oPxRAA)
+3. Image 2 - Gallery[Leon Contreras](https://unsplash.com/photos/selective-focus-photography-of-marshmallows-on-fire-pit-YndHL7gQIJE)
+4. Image 3 - Gallery - [Patrick Hendry - Annika's Yuki](https://unsplash.com/photos/woman-and-a-dog-inside-outdoor-tent-near-body-of-water-eDgUyGu93Yw)
+5. Image 4 - Gallery [Wei Pan](https://unsplash.com/photos/brown-tent-under-starry-night-Ta0A1miYZKc)
+6. Image 5 - Gallery [Jimmy Conover](https://unsplash.com/photos/short-coated-brown-dog-J_XuXX9m0KM)
+7. Image 6 - Gallery [Dino Reichmuth](https://unsplash.com/photos/red-and-gray-tents-in-grass-covered-mountain-5Rhl-kSRydQ)
+8. Image 7 - Gallery [Glen Jackson](https://unsplash.com/photos/man-sitting-on-stone-beside-white-camping-tent-mzZVGFfMOkA)
+9. Image 8 - Gallery [Andrew Gloor](https://unsplash.com/photos/tent-at-the-field-near-trees-during-night-I1RZSDvvStY)
+10. Image 9 - Gallery [Daan Weijers](https://unsplash.com/photos/gray-tent-on-top-of-mountain-pSaEMIiUO84)
+11. Image 10 - Gallery [Esther Tuttle](https://unsplash.com/photos/man-and-woman-seating-on-gray-hammock-beside-trees-during-daytime-dyjH3YMblpo)
+12. Image 11 - Gallery [Roxanne Desgagnés](https://unsplash.com/photos/pink-tent-near-white-sand-near-sea-h4bBVo_CpqQ)
+13. Image 12 - Gallery - [Jack Sloop](https://unsplash.com/photos/camping-tent-on-cliff-during-golden-hour-qelGaL2OLyE)
+14. Hero Image Contact Us Page - [Patrick Hendry - Annika's Yuki](https://unsplash.com/photos/woman-and-a-dog-inside-outdoor-tent-near-body-of-water-eDgUyGu93Yw)
+* [Kiera Cudmore](https://github.com/kera-cudmore/readme-examples) READ.ME Examples
+* [W3 Schools](https://www.w3schools.com/) for help with Code issues.
+* Other projects for layout and design inspiration [Kiwi Kampers](https://adamshaw90.github.io/Kiwi-Kampers/index.html) & [Gower Fields](https://smithphil88.github.io/gower-fields/)
+* [Google Developer Tools](https://developer.chrome.com/docs/devtools) for styling and responsiveness.
+* [Over Stack](https://stackoverflow.com/) for help with Git navigation.
 
 
  
+
+
+
